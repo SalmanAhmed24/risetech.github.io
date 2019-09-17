@@ -1,0 +1,20 @@
+@mixin for-all-small-devices{
+    @media only screen and (min-width:200px) and (max-width:992px){
+        @content;
+    }
+}
+@mixin for-200-to-768{
+    @media only screen and (min-width:200px) and (max-width:768px){
+        @content;
+    }
+}
+@mixin for-200-to-575 {
+    @media only screen and (min-width:200px) and (max-width:576px){
+        @content;
+    } 
+}
+@mixin for-less-420 {
+    @media only screen and (min-width:200px) and (max-width:420px){
+        @content;
+    }
+}
